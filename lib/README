@@ -1,0 +1,20 @@
+README
+
+For Running this app in run mode please edit the configuration and then add :
+Additional args: --no-sound-null-safety
+as some libraries which have been used do no support null safety.
+
+For testcases also update the same in additional args.
+Additional args: --no-sound-null-safety
+
+Total number of Unit testcases : 7
+State Management architecture used : Bloc
+
+Features Added :
+
+1. Dashboard can be used to view products in List or Grid format.
+2. In Product Details we can add to cart after selecting quantity which we need. Max Quantity set to 10.
+3. In Cart the Items added are cached so when we close the app the cart is intact. Actual approach is to use backend for storing the cart
+   data but for simplicity used the local backend.
+4. The Cart Items are clickable so we can view the product details from the cart page.
+5. Search Bar has been implemented in the dashboard which allows user to search the product based on title.

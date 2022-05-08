@@ -1,0 +1,12 @@
+const String splashScreenTitle = 'Product Spectator';
+const String keyCart = "Cart Key";
+const String appBarDashboardTitle = splashScreenTitle;
+const String hintTextSearchBar = 'Search for products';
+const String itemAddedToCartText = 'Item has been added to cart';
+const String itemUpdatedInCartText = 'Item has been updated in cart';
+const String productDetailsTitle = 'Product Details';
+const String maxLimitReached = 'Maximum limit reached';
+const String addToCartButton = 'ADD TO CART';
+const String updateCartButton = 'UPDATE CART';
+const String cartTitle = 'My Cart';
+const String shopButtonText = "Let's Shop";
